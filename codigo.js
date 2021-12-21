@@ -7,7 +7,7 @@ app.listen(process.env.PORT || 3000, () => console.log("Hola"));
 
 
 app.get('/', function(req, res){
-    res.sendFile(path.resolve(__dirname, './views/login.html'));
+    res.sendFile(path.resolve(__dirname, './views/codigo.html'));
 })
 
 
