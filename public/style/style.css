@@ -2,6 +2,8 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+/* cambios para mobile o web */
+
 @media (max-width:386px){ 
     .vinculo {
         display:none;
@@ -56,7 +58,9 @@ html{
     }
     #form{
         width: 100%;
-    }
+    } 
+    /* aca tuve problemas poder alinear los productos a version mobile
+    como no anduvo justify-conter:center y demas, lo resolvi con position*/
     #SG{
         position: absolute;
         width: 83%;
@@ -121,10 +125,23 @@ html{
     }
 }
 
-#foto{
-    width: 20%;
+
+/*cabeza*/
+
+#amarillo{
+    background: #e9cb36;
 }
 
+#lupa{
+    display: flex;
+    width: 10px;
+}
+
+#cabeza{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
 
 #hamb{
     display: flex;
@@ -152,31 +169,8 @@ html{
     right: 32%;
 }
 
-#lupa{
-    display: flex;
-    width: 10px;
-}
-
-#cabeza{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 3%;
-}
-
-.vinculo:hover{
-    font-size: 17.6px;
-}
-
-
-#prods{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#prodss{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#foto{
+    width: 20%;
 }
 
 #nada {
@@ -192,66 +186,23 @@ html{
     padding-bottom: 8.3px;
 }
 
-.llenar{
-    transition: 200ms;
-    width: 100%;
-    background-color: white;
-}
-.llenar:hover{
-    background-color: #d6c881;
-    transition: 200ms;
+.vinculo:hover{
+    font-size: 17.6px;
 }
 
-#logbot{
+/* cuerpo */
+
+#prods{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-#formulario-2{
+#prodss{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5% 27% 5% 27%;
-    background-color: lightgrey;
-    border-radius: 7%;
-    padding: 6% 8% 5% 8%;
-}
-.ingresar:hover{
-    background-color:  #0022AA;
-}
-#formulario{
-    display: flex;
-    margin: 5% 10% 5% 10%;
-    background-color: lightgrey;
-    border-radius: 7%;
-    padding: 6% 8% 5% 8%;
-    width: 50%;
-    justify-content: center;
-    margin-left: 17%;  
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#limpieza {    
-   display: flex;
-   
-   justify-content: space-between;
-}
-
-#banner {
-    display: flex;
-    width: 100%;
-}
-
-#ultima{
-    display: flex;
-    justify-content: center;
-}
-
-#amarillo{
-    background: #e9cb36;
-}
-#tarjeta{
-    background: white;
-}
 #productos {
     background-color: lightgrey;
     height: auto;
@@ -336,6 +287,71 @@ html{
     transition:500ms;
     font-size: 30px;
 }
+
+/* register-form y login-form */
+
+.llenar{
+    transition: 200ms;
+    width: 100%;
+    background-color: white;
+}
+.llenar:hover{
+    background-color: #d6c881;
+    transition: 200ms;
+}
+
+#logbot{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#formulario-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 27% 5% 27%;
+    background-color: lightgrey;
+    border-radius: 7%;
+    padding: 6% 8% 5% 8%;
+}
+.ingresar:hover{
+    background-color:  #0022AA;
+}
+#formulario{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    background-color: lightgrey;
+    border-radius: 7%;
+    padding: 6% 8% 5% 8%;
+    width: 50%;
+    justify-content: center;
+    margin-left: 17%;  
+}
+
+#limpieza {    
+   display: flex;
+   
+   justify-content: space-between;
+}
+
+#banner {
+    display: flex;
+    width: 100%;
+}
+
+#ultima{
+    display: flex;
+    justify-content: center;
+}
+
+
+#tarjeta{
+    background: white;
+}
+
+
+
+/* css correspondiente a footer */
 
 #detalles {
     display: flex;
