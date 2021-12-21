@@ -1,0 +1,400 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:386px){ 
+    .vinculo {
+        display:none;
+    }
+    .textoC {
+        display:none;        
+    }
+    #foto{
+        display: flex;
+        position: absolute;
+        left: 5%;
+        top: -1%;
+        height: 15%;
+        
+    }
+    #nada{
+        position:absolute;
+        display: none;
+        visibility: hidden;
+    }
+    
+    #boton3{
+        left: 31%;
+    }
+    #boton4{
+        top: 4.7%;
+    
+    }
+    #opciones {
+        display: flex;
+        top: 10%;
+        margin-bottom: 5%;
+        width: 12%;
+        height: 100%;
+        background-color: blue;
+        
+    }
+    #texto{
+        display: flex;
+        line-height: normal;
+        font-size: 12px;
+        margin-left: 54%;
+    }
+    #menu{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background: blue;
+    }
+    .llenar{
+        font-size: 13px;
+    }
+    #form{
+        width: 100%;
+    }
+    #SG{
+        position: absolute;
+        width: 83%;
+        padding-bottom: 36px; 
+        height: 60%;
+    }
+    #LN{
+        position: absolute;
+        width: 83%;
+        padding-bottom: 36px;
+        bottom: -84%; 
+        height: 60%;
+    }
+    #Tv{
+        position: absolute;
+        width: 83%;
+        padding-bottom: 36px;
+        bottom: -154%; 
+        height: 60%;
+    }
+    .oferta{
+        position: absolute;
+        width: 100%;
+        bottom: -167%; 
+    }
+    #CM{
+        position: absolute;
+        width: 83%;
+        padding-bottom: 36px;
+        bottom: -236%; 
+        height: 60%;
+    }
+    #BN {
+        position: absolute;
+        bottom: -307%;
+        width: 83%;
+        padding-bottom: 36px;
+        height: 60%;
+    }
+    #MP{
+        position: absolute;
+        bottom: -377%;
+        width: 83%;
+        padding-bottom: 36px;
+        height: 60%;
+    }
+    
+    #productos2 {
+        height: 3100px;
+    }
+}
+
+@media (min-width:386px){
+    #opciones {
+        display:none;
+    };
+    #sombra {
+        box-shadow: 0px 0px 10px rgb(141, 6, 6);
+    }
+    .menu{
+        display: none;
+    }
+}
+
+#foto{
+    width: 20%;
+}
+
+
+#hamb{
+    display: flex;
+    justify-content: center;
+}
+
+#boton2{
+    display: flex;
+    align-content: center;
+    padding-right: 20%;
+    margin-top: 15px;
+}
+#boton3{
+    display: flex;
+    position: absolute;
+    height: 20px;
+    width: 27%;
+}
+
+#boton4{
+    display: flex;
+    height: 25px;
+    align-items: center;
+    position: absolute;
+    right: 32%;
+}
+
+#lupa{
+    display: flex;
+    width: 10px;
+}
+
+#cabeza{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.vinculo:hover{
+    font-size: 17.6px;
+}
+
+
+#prods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#prodss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nada {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 2%;    
+    background-color: #d6c881;
+    border-style: double;
+    padding-top: 8.3px;
+    padding-bottom: 8.3px;
+}
+
+.llenar{
+    transition: 200ms;
+    width: 100%;
+    background-color: white;
+}
+.llenar:hover{
+    background-color: #d6c881;
+    transition: 200ms;
+}
+
+#logbot{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#formulario-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 27% 5% 27%;
+    background-color: lightgrey;
+    border-radius: 7%;
+    padding: 6% 8% 5% 8%;
+}
+.ingresar:hover{
+    background-color:  #0022AA;
+}
+#formulario{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    background-color: lightgrey;
+    border-radius: 7%;
+    padding: 6% 8% 5% 8%;
+    width: 50%;
+    justify-content: center;
+    margin-left: 17%;  
+}
+
+#limpieza {    
+   display: flex;
+   
+   justify-content: space-between;
+}
+
+#banner {
+    display: flex;
+    width: 100%;
+}
+
+#ultima{
+    display: flex;
+    justify-content: center;
+}
+
+#amarillo{
+    background: #e9cb36;
+}
+#tarjeta{
+    background: white;
+}
+#productos {
+    background-color: lightgrey;
+    height: auto;
+    padding-bottom: 5%;   
+}
+
+.fotos{
+    width: 100%;
+    height: 50%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+}
+
+.camion{
+    width: 22%;
+    height: 22%;
+    transition: 500ms;
+
+}
+ 
+
+.camion:hover{
+    transform: rotateZ(-90deg);
+    transition:500ms;
+}
+.prod{
+   background-color: white;
+   border-radius: 7%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   width: 25%;
+   
+}
+
+.precio{
+    font-size: 26px;
+   
+}
+.descuento{
+    font-size: 17px;
+    color: rgb(32, 182, 32);
+   
+}
+
+.descrip{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: -25px;
+    
+}
+
+.titulo{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;   
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+    transition: 500ms;
+}
+
+.titulo:hover{
+    color: black;
+    font-size: 27px;
+    transition:500ms;
+}
+
+.oferta{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;   
+    display: flex;
+    justify-content: center;
+    color: black;
+    transition: 500ms;
+}
+
+.oferta:hover{
+    transition:500ms;
+    font-size: 30px;
+}
+
+#detalles {
+    display: flex;
+    text-align: center;
+    line-height: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 6%
+}
+
+.iconosF:hover{
+    background-color: #e9cb36;
+    color: #e9cb36;
+    border-radius: 10%;
+    transition:500ms;
+}
+
+.iconosF{
+    width: 40px;
+    transition:500ms;
+    background-color: white;
+}
+
+.pies1{
+    width: 20%;
+    height: 10%;
+    margin-top: 1%;
+}
+.pies2{
+    width: 20%;
+    height: 10%;
+         
+}
+.pies3{
+    width: 20%;
+    height: 10%;
+    
+}
+
+#textoFinal{
+    margin-bottom: 70px;
+}
+
+.textoT{
+    font-size: 15px;
+    line-height: normal;
+}
+.textoC{
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+.Copyright {
+    opacity: 0.5;
+    font-size: 10px;   
+}
+#copy{
+    display: flex;
+    justify-content: center;
+}
