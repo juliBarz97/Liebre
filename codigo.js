@@ -10,11 +10,11 @@ app.get('/', function(req, res){
     res.sendFile(path.resolve(__dirname, './views/codigo.html'));
 })
 
-app.get('/', function(req, res){
+app.get('/login.html', function(req, res){
     res.sendFile(path.resolve(__dirname, './views/login.html'));
 })
 
-app.get('/', function(req, res){
+app.get('/register.html', function(req, res){
     res.sendFile(path.resolve(__dirname, './views/register.html'));
 })
 
