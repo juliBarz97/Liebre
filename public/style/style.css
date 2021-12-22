@@ -4,7 +4,7 @@ html{
 
 /* cambios para mobile o web */
 
-@media (max-width:386px){ 
+@media (max-width:400px){ 
     .vinculo {
         display:none;
     }
@@ -113,7 +113,7 @@ html{
     }
 }
 
-@media (min-width:386px){
+@media (min-width:400px){
     #opciones {
         display:none;
     };
